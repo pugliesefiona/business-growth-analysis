@@ -1,0 +1,40 @@
+OPORTUNIDADES DE GROWTH
+
+1. AUMENTAR LA SEGUNDA COMPRA
+
+* el principal punto de perdida esta entre la primera y segunda compra
+* trabajaria los primeros 30 dias despues de la primera compra con comunicaciones y acciones personalizadas
+* probaria distintos momentos y tipos de incentivo para ver cuales generan mas recompra
+* objetivo: aumentar la tasa de segunda compra y reducir el tiempo hasta la segunda compra
+
+2. REACTIVAR CLIENTES DE UNA SOLA COMPRA
+
+* hay un 41,6% de clientes que compro solamente una vez
+* segmentaria estos clientes segun tiempo desde la ultima compra, canal y comportamiento de compra
+* probaria distintas acciones de reactivacion para identificar que tipo de clientes responde mejor
+* objetivo: aumentar la tasa de reactivacion y generar revenue incremental
+
+3. AUMENTAR LA FRECUENCIA DE COMPRA
+
+* los clientes con mayor recurrencia concentran gran parte del revenue
+* trabajaria sobre los clientes que ya compraron mas de una vez para intentar aumentar su frecuencia
+* algunas acciones posibles: recomendaciones personalizadas, recordatorios de recompra, cross-selling y promociones segun comportamiento
+* objetivo: aumentar ordenes y revenue por cliente
+
+4. DIFERENCIAR LA ESTRATEGIA POR CANAL
+
+* Market tiene mayor frecuencia y revenue por cliente, mientras que Eats tiene una recurrencia ligeramente mayor
+* en Market buscaria oportunidades para aumentar aun mas la frecuencia y el valor por cliente
+* en Eats trabajaria principalmente la evolucion de los clientes de primeras compras hacia clientes mas recurrentes
+* mediria los resultados por canal para ver que acciones funcionan mejor en cada uno
+
+METRICAS A SEGUIR
+
+* tasa de segunda compra
+* retencion a 30 dias
+* tiempo hasta segunda compra
+* ordenes por cliente
+* revenue por cliente
+* tasa de reactivacion
+* revenue incremental
+* ROI de las acciones

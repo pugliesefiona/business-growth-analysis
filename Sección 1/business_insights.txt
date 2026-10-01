@@ -1,0 +1,50 @@
+PRINCIPALES FINDINGS
+
+NEGOCIO
+
+* 310.153 ordenes
+* 26.597 clientes
+* revenue: 11,16M
+* AOV: 35,97
+* Market concentra la mayor parte del revenue
+* 2024 tiene datos hasta octubre, asi que no se puede comparar directamente con todo 2023
+
+CLIENTE
+
+* 11,66 ordenes promedio por cliente
+* revenue promedio por cliente: 419
+* 58,4% de los clientes compro mas de una vez
+* 41,6% de los clientes hizo solamente una compra
+
+LIFECYCLE
+
+activacion
+
+* 50,3% de los usuarios de la base de signups termino haciendo una compra
+* en promedio tardan 11,4 dias en hacer la primera compra
+* hay una diferencia entre la cantidad de usuarios de signups y los clientes de orders, por lo que primero habria que validar si ambas bases tienen la misma cobertura antes de tomar este 50,3% como tasa de activacion general
+
+early lifecycle
+
+* los primeros 30 dias parecen ser una ventana util para analizar esta etapa
+* retencion hasta la segunda compra:
+
+  * 7 dias -> 16,3%
+  * 14 dias -> 24,2%
+  * 30 dias -> 34,3%
+  * 60 dias -> 43,0%
+* de los clientes que tuvieron al menos 30 dias para ser observados, el 65,7% hizo solamente una compra durante los primeros 30 dias
+* la mayor perdida se da entre la primera y la segunda compra: solo el 58,4% llega a hacer una segunda compra durante el periodo analizado
+
+madurez
+
+* 31,2% de los clientes hizo 6 o mas compras
+* estos clientes concentran aproximadamente el 93% del revenue
+* gran parte del valor del negocio esta concentrado en los clientes que tienen mayor recurrencia
+
+canales
+
+* Eats tiene una recurrencia un poco mayor: 62,3% vs 55,9% en Market
+* Market tiene mayor frecuencia de compra y mayor revenue por cliente
+* retencion a 30 dias: Market 35,7% vs Eats 32,2%
+* la diferencia en retencion entre los canales es relativamente chica comparada con la diferencia en revenue por cliente

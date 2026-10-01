@@ -1,0 +1,55 @@
+PRINCIPALES FINDINGS
+
+CAMPAÑAS
+
+* 31 campañas analizadas
+* 278.245 envíos registrados durante Q3 2024
+* la base presenta algunas inconsistencias entre envíos, aperturas y clicks, por lo que las tasas por campaña deben interpretarse con cautela
+* algunas campañas tienen aperturas o clicks sin envíos registrados
+* en algunas campañas las aperturas superan a los envíos, por lo que la base parece registrar eventos y no necesariamente un único registro por envío
+
+COMUNICACION Y COMPRA
+
+* 39,1% de los usuarios que recibieron al menos una comunicación realizó alguna compra durante el período
+* este dato muestra una asociación entre comunicación y compra, pero no permite afirmar que las campañas hayan generado esas compras
+* después de la primera comunicación registrada hubo 30.575 órdenes posteriores
+* 5.940 usuarios realizaron al menos una compra después de su primera comunicación
+* revenue asociado a estas compras posteriores: 1,18M
+* AOV de las compras posteriores a la comunicación: 38,65 vs 35,97 de AOV general
+* para medir el impacto real de las campañas sería necesario utilizar grupos de control
+
+ACTIVACION
+
+* 9.254 de los 18.411 usuarios registrados realizaron una compra
+* tasa de activación: 50,3%
+* tiempo promedio hasta la primera compra: 11,5 días
+* 49,7% de los usuarios registrados no realizó una compra
+* los primeros días después del registro representan una oportunidad para trabajar la activación mediante comunicaciones automatizadas
+* antes de tomar el 50,3% como tasa de activación general, habría que validar que la base de signups tenga la misma cobertura que la base de órdenes
+
+FRECUENCIA
+
+* 41,6% de los clientes hizo solamente una compra
+* 58,4% de los clientes realizó al menos una segunda compra
+* la mayor pérdida se da entre la primera y segunda compra
+* 58,5% de las segundas compras ocurre dentro de los primeros 30 días
+* las tasas de transición mejoran a medida que aumenta la cantidad de compras:
+
+  * 1ra -> 2da: 58,4%
+  * 2da -> 3ra: 78,7%
+  * 3ra -> 4ta: 85,4%
+  * 4ta -> 5ta: 88,1%
+  * 5ta -> 6ta: 90,2%
+* la segunda compra es el principal punto sobre el que trabajaría para aumentar la frecuencia
+
+DECISIONES
+
+* priorizaría una estrategia de activación para usuarios registrados que todavía no realizaron su primera compra
+* trabajaría especialmente la segunda compra durante los primeros 30 días
+* utilizaría el comportamiento anterior del usuario para definir cuándo y qué comunicar
+* desarrollaría una estrategia de cross-sell entre Market y Eats
+* detectaría caídas en la frecuencia de compra para actuar antes de que el usuario entre en churn
+* utilizaría una estrategia específica de reactivación para usuarios con períodos prolongados de inactividad
+* usaría descuentos de manera selectiva, principalmente cuando exista una oportunidad de generar una compra incremental
+* mediría el impacto de los incentivos mediante grupos de control y no solamente por las compras posteriores a una campaña
+* priorizaría métricas como activación, segunda compra, frecuencia, reactivación, revenue incremental y ROI de los incentivos

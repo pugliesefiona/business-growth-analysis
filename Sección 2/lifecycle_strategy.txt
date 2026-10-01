@@ -1,0 +1,213 @@
+### Flujo 1 - ACTIVACION 
+
+**objetivo: lograr que los usuarios que se registraron realicen su primera compra
+
+**por qué trabajaría este flujo: En la base de signups hay 18.411 usuarios registrados y 9.254 realizaron al menos una compra, por lo que la tasa de activación es de 50,3%. Esto significa que casi la mitad de los usuarios registrados no llega a convertirse en comprador
+
+Además, el tiempo promedio hasta la primera compra es de 11,5 días. Por eso, trabajaría especialmente los primeros días después del registro, tratando de acompañar al usuario hasta que haga su primera compra
+
+**campaña propuesta:
+
+* **Día 0: mensaje de bienvenida y explicación de los principales beneficios de comprar en la app
+* **Día 2-3: recordatorio y recomendaciones de productos o categorías que puedan ser relevantes para el usuario
+* **Día 5-7: si todavía no compró, probaría con algún incentivo para generar la primera compra 
+* **Si realiza una compra: sale del flujo automáticamente y pasa al flujo de segunda compra
+
+**Canales:
+
+Empezaría con push y email, ya que permiten acompañar al usuario sin tener que recurrir directamente a un canal más invasivo quizas. WhatsApp podría utilizarse en una instancia posterior o para usuarios con mayor intención de compra
+
+**descuentos: no ofrecería un descuento desde el primer mensaje. Primero intentaría generar la compra con comunicación, recordatorios y recomendaciones. Si el usuario sigue sin convertir, utilizaría un incentivo puntual y limitado
+
+**métricas:
+
+* tasa de activación
+* conversión a primera compra
+* días hasta la primera compra
+* costo por usuario activado
+* revenue incremental
+* ROI del incentivo
+
+para medir el retorno de los descuentos, intentaría trabajar con un grupo de usuarios que no reciba el incentivo y comparar su comportamiento con el grupo que sí lo recibe. De esta forma puedo estimar cuántas compras adicionales generó realmente la campaña y no simplemente contar todas las compras posteriores al envío.
+
+### Flujo 2 - SEGUNDA COMPRA
+
+**objetivo: lograr que los usuarios que ya hicieron una primera compra vuelvan a comprar
+
+**por qué trabajaría este flujo: el 41,6% de los clientes de la base realizó solamente una compra. Además, la tasa de transición de la primera a la segunda compra es de 58,4%, por lo que este es el principal punto de caída dentro del ciclo de compra
+
+también vemos que la mediana de tiempo hasta la segunda compra es de aproximadamente 21 días y que el 58,5% de las segundas compras ocurre durante los primeros 30 días. Por eso, concentraría la estrategia principalmente en este período
+
+**campaña propuesta: después de la primera compra, pensaría un flujo que acompañe al usuario durante los primeros 30 días:
+
+* **Después de la primera compra: agradecimiento y confirmación de la experiencia
+* **Día 5-7: recomendación de productos relacionados con lo que compró
+* **Día 10-14: recordatorio o recomendación basada en compras anteriores
+* **Día 20-25: si todavía no volvió a comprar, probaría un incentivo para generar la segunda compra
+* **Si realiza una segunda compra: sale del flujo y pasa al flujo de recurrencia
+
+No mandaría exactamente los mismos mensajes a todos los usuarios. Intentaría aprovechar la información de la primera compra para que las recomendaciones sean más relevantes?
+
+**entrada y salida:
+
+* **entrada: usuario que realizó exactamente una primera compra
+* **salida: realiza la segunda compra o llega al final del período de seguimiento.
+
+**canales: usaría principalmente push y email, combinando mensajes más inmediatos con comunicaciones que permitan mostrar recomendaciones. Para usuarios que no respondan y donde tenga sentido, podría probar WhatsApp como último contacto
+
+**descuentos:no ofrecería descuento inmediatamente después de la primera compra. Primero intentaría generar la segunda compra mediante recomendaciones y recordatorios
+
+si el usuario llega a los 20-25 días sin volver a comprar, podría ofrecer un incentivo puntual. El beneficio podría variar según el comportamiento del usuario y debería probarse contra un grupo de control para saber si realmente genera compras adicionales
+
+**métricas:
+
+* tasa de segunda compra
+* tiempo hasta la segunda compra
+* porcentaje de usuarios que compran dentro de los primeros 30 días
+* frecuencia de compra
+* revenue incremental
+* costo del incentivo
+* ROI del incentivo
+
+el principal objetivo sería aumentar la transición de 1 a 2 compras, ya que es donde encontramos la mayor caída dentro del ciclo de compra
+
+### Flujo 3 - FRECUENCIA DE COMPRA
+
+**objetivo: aumentar la frecuencia de compra de los usuarios que ya tienen cierta recurrencia
+
+**por qué trabajaría este flujo: una vez que el usuario supera la primera compra, las tasas de transición mejoran bastante. La transición de 2 a 3 compras es de 78,7% y sigue aumentando en las etapas siguientes
+
+por eso, en este grupo no buscaría generar una compra desde cero, sino entender cuándo suele volver a comprar y usar esa información para anticipar la siguiente compra
+
+**campaña propuesta: trabajaría principalmente con usuarios que tienen entre 2 y 5 compras.
+
+* en función de sus compras anteriores, enviar recordatorios cerca del momento en que normalmente vuelven a comprar
+* recomendar productos relacionados con lo que compraron anteriormente.
+* mostrar novedades o categorías que puedan complementar sus compras habituales
+* si pasa más tiempo del esperado sin una nueva compra, aumentar la intensidad de la comunicación
+* si realiza una nueva compra, actualizaría el flujo según su nuevo comportamiento
+
+**entrada y salida:
+
+* **entrada: usuario con entre 2 y 5 compras
+* **salida: nueva compra, ingreso a un flujo de churn o llegada a un nivel de frecuencia que requiera otro tipo de comunicación
+
+**canales:
+
+principalmente push y email. Push puede servir para recordatorios más inmediatos y email para recomendaciones o comunicaciones con más información.
+
+**descuentos: no utilizaría descuentos como estrategia principal, porque estos usuarios ya demostraron que tienen intención de volver a comprar.
+los reservaría para casos donde el usuario se esté alejando de su frecuencia habitual o para probar si un incentivo puede aumentar la frecuencia de manera incremental
+
+**métricas:
+
+* compras por usuario
+* frecuencia de compra
+* tiempo promedio entre compras
+* porcentaje de usuarios que realizan una nueva compra
+* revenue por usuario
+* revenue incremental
+* costo y ROI de los incentivos
+
+La idea sería aumentar la frecuencia sin depender de descuentos permanentes, utilizando principalmente el comportamiento previo del usuario para decidir **qué comunicar y cuándo hacerlo**.
+
+### Flujo 4 - CROSS SELL
+
+**objetivo: lograr que usuarios que ya compran en una de las dos líneas también prueben la otra
+
+**por qué: en la base hay usuarios que compran en Market y otros en Eats, por lo que existe una oportunidad de aumentar el valor del usuario haciendo que conozca y use ambas
+
+**campaña:
+
+* identificar usuarios que compraron en Market pero nunca en Eats, y viceversa.
+* después de una compra, mostrarles la otra línea de manera relacionada con su comportamiento.
+por ejemplo, a un usuario de Market se le puede comunicar Eats con recomendaciones o beneficios relacionados con sus hábitos.
+* si muestra interés pero no compra, hacer un segundo contacto unos días después
+* cuando realiza una compra en la otra línea, sale del flujo
+
+**entrada y salida: 
+
+**entrada: tener al menos una compra en una línea y no haber comprado en la otra.
+**salida: realizar una compra en la otra línea o cumplir el límite de tiempo definido para el flujo
+
+**canales: principalmente push y email. El push puede servir para una comunicación rápida y el email para explicar mejor la propuesta o mostrar distintas opciones.
+
+**descuentos: en este flujo sí probaría un incentivo de primera compra en la otra línea, porque estamos intentando generar un comportamiento nuevo. No lo ofrecería necesariamente a todos: primero probaría comunicación sin descuento y usaría el incentivo en usuarios que muestran interés o como parte de un test
+
+**métricas:** tasa de cross-sell, porcentaje de usuarios que prueban la otra línea, tiempo hasta la primera compra en la segunda línea, compras por usuario, revenue por usuario e ingreso incremental. Si se utiliza un descuento, también mediría costo del incentivo y ROI incremental.
+
+la idea es usar el comportamiento que el usuario ya tiene para presentarle la otra línea, buscando aumentar el valor del usuario sin depender de descuentos permanentes
+
+### Flujo 5 - SOFT CHURN
+
+**objetivo: detectar usuarios que están empezando a perder frecuencia y actuar antes de que dejen de comprar
+
+**por qué: en vez de esperar a que un usuario quede completamente inactivo, buscaría detectar cambios en su comportamiento habitual. Por ejemplo, si normalmente compra cada 15 días y ya pasó bastante más tiempo desde su última compra.
+
+**campaña:
+
+* identificar usuarios que ya tienen un historial de compras pero están tardando más de lo habitual en volver a comprar.
+* comparar el tiempo desde su última compra con su frecuencia anterior.
+* primero enviaría un recordatorio o recomendaciones relacionadas con sus compras anteriores.
+* si no responde, probaría con una comunicación diferente o algún beneficio puntual.
+* si vuelve a comprar, sale del flujo y continúa con el flujo de frecuencia.
+* si sigue sin comprar durante un período más largo, pasa al flujo de reactivación.
+
+** entrada y salida: 
+
+** entrada: tener historial de compras y mostrar una caída en la frecuencia o superar el tiempo habitual entre compras.
+
+** salida: realizar una nueva compra o pasar a un período de inactividad que justifique entrar en reactivación
+
+**canales: principalmente push y email. También podría utilizar WhatsApp en usuarios de mayor valor o cuando haya una señal fuerte de riesgo de abandono.
+
+**descuentos: los usaría de manera puntual, principalmente cuando el usuario ya mostró una caída en su frecuencia. Antes probaría una comunicación sin incentivo para no acostumbrar al usuario a comprar solamente cuando recibe un descuento.
+
+**métricas:** tasa de recuperación, tiempo hasta la próxima compra, frecuencia de compra, revenue por usuario, porcentaje de usuarios que pasan a reactivación, ingreso incremental y costo/ROI del incentivo cuando se utilice.
+
+la idea es intervenir antes de que el usuario entre en churn, usando su propio comportamiento como referencia para detectar cuándo empieza a alejarse
+
+### Flujo 6 - REACTIVACION
+
+**objetivo: recuperar usuarios que dejaron de comprar y volver a llevarlos a una compra
+
+**por qué: este flujo sería para usuarios que ya pasaron un período considerable sin comprar y que no respondieron a las acciones de soft churn. En lugar de seguir enviándoles comunicaciones frecuentes, haría una estrategia específica para intentar recuperarlos.
+
+**campaña:
+
+* identificar usuarios que llevan un período prolongado sin comprar
+* comenzar con una comunicación recordando la propuesta de valor y mostrando productos o categorías relacionadas con sus compras anteriores.
+* si no responde, probar una segunda comunicación con una propuesta diferente
+* finalmente, para determinados usuarios, ofrecer un incentivo de reactivación!
+* si vuelve a comprar, sale del flujo y vuelve al flujo de frecuencia.
+* si no responde después de toda la secuencia, dejaría de enviar comunicaciones durante un tiempo para evitar seguir gastando recursos sobre usuarios que no muestran interés.
+
+** entrada y salida:
+
+**entrada: superar un período determinado sin realizar una compra, después de haber pasado por soft churn.
+**salida: realizar una nueva compra o completar la secuencia sin responder.
+
+**canales: email y push como principales. WhatsApp podría utilizarse para usuarios de mayor valor o en una última instancia antes de cerrar el flujo.
+
+**descuentos: en este flujo tendría más sentido utilizar un incentivo que en los anteriores, porque estamos intentando generar nuevamente una compra en un usuario que ya dejó de hacerlo. De todas formas, no ofrecería el mismo descuento a todos: lo probaría según el valor del usuario y su historial de compras.
+
+**métricas: tasa de reactivación, tiempo hasta la próxima compra, revenue recuperado, compras por usuario reactivado, costo por usuario reactivado, ingreso incremental y ROI del incentivo.
+
+hay que intentar recuperar al usuario sin mantener comunicaciones indefinidamente. Si después de la secuencia no hay respuesta, dejaría de invertir recursos en ese usuario por un período y lo volvería a trabajar más adelante con una estrategia diferente.
+
+## SOBRE LOS DESCUENTOS Y ROI
+
+No utilizaría descuentos como estrategia principal en todos los flujos. Primero intentaría generar la acción a través de comunicaciones, recomendaciones y recordatorios, y usaría los incentivos cuando haya una oportunidad concreta de generar una compra adicional o recuperar un usuario
+Para medir si un descuento realmente genera valor, no miraría solamente cuántos usuarios compraron después de recibirlo, ya que algunos de esos usuarios podrían haber comprado igual
+
+--> Por eso utilizaría un grupo de control. Por ejemplo, un grupo recibe la comunicación con descuento y otro grupo recibe una comunicación similar pero sin descuento. Después compararía la tasa de compra entre ambos grupos.
+
+La diferencia entre los dos grupos me permitiría estimar el efecto incremental del incentivo:
+
+tasa de compra incremental = tasa de compra del grupo con incentivo − tasa de compra del grupo de control
+
+Como métrica de ROI utilizaría:
+
+ROI = (beneficio incremental − costo del incentivo) / costo del incentivo
+
+En este caso, si solamente contamos con revenue y no tenemos información de margen, utilizaría el revenue incremental como una primera aproximación. 
